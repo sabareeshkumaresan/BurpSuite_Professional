@@ -2,6 +2,7 @@
 
 --------------------------------------------------------------------------------------------
 # Burp Suite Professional Installation steps for Windows
+    --> Open installation steps.txt and follow the steps.
 	--> Open Powershell and execute below command to set Script Execution Policy.
 		Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process
 	--> Now Execute Windows_Setup.ps1 file in Powershell to Complete Installation.
