@@ -1,0 +1,5 @@
+1. Open powershell with administrator
+2. run "Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process" in powershell
+3. copy entire burp folder to "c:" drive.
+4. type "cd C:\burp" in powershell
+5. run "./install.ps1"
