@@ -24,3 +24,9 @@
 
 
 -----------------------------------------------------------------------------------------------------------------
+# Burp Suite Professional updates
+    -->Open powershell with administrator
+    -->type "cd C:\burp" in powershell
+    -->type "Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process" and press enter
+    -->run "./update.ps1"
+-----------------------------------------------------------------------------------------------------------------
