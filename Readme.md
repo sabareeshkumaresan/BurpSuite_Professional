@@ -2,17 +2,13 @@
 
 --------------------------------------------------------------------------------------------
 # Burp Suite Professional Installation steps for Windows
-    --> Open installation steps.txt and follow the steps.
-	--> Open Powershell and execute below command to set Script Execution Policy.
-		Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process
-	--> Now Execute Windows_Setup.ps1 file in Powershell to Complete Installation.
-		./Windows_Setup.ps1
-	--> For Start Menu Entry, copy **Burp-Suite-Pro.vbs** file to 
-		C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
-
------------------------------------------------------------------------------------------------------------------
-# Burp Suite Professional Installation steps for Kali-Linux 
-	--> Execute Kali_Linux_Setup.sh file as root user
+    -->Create a folder "C:\burp"
+    -->Download file from "https://github.com/sabareeshkumaresan/BurpSuite_Professional/archive/refs/heads/main.zip"
+    -->Extract the files and place the files to "C:\burp"
+    -->Open powershell with administrator
+    -->type "cd C:\burp" in powershell
+    -->type "Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process" and press enter
+    -->run "./install.ps1"
 
 -----------------------------------------------------------------------------------------------------------------
 # Burp Suite Pro Activation Steps 
@@ -25,6 +21,6 @@
 -----------------------------------------------------------------------------------------------------------------
 # Executing Burp Suite Profession after Activation
 	--> Windows :-: You can start Burp Suite Professional from Start Menu.
-	--> Kali Linux :-: You can start Burp Suite Professional by writing **burp** in terminal.
+
 
 -----------------------------------------------------------------------------------------------------------------
