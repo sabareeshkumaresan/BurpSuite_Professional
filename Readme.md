@@ -4,7 +4,7 @@
 # Burp Suite Professional Installation steps for Windows
     -->Create a folder "C:\burp"
     -->Download file from "https://github.com/sabareeshkumaresan/BurpSuite_Professional/archive/refs/heads/main.zip"
-    -->Extract the files and place the files to "C:\burp"
+    -->Extract the files and place the files to "C:\burp\"
     -->Open powershell with administrator
     -->type "cd C:\burp" in powershell
     -->type "Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process" and press enter
